@@ -399,47 +399,13 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     libmtk_drvb \
-    audio.primary.mt6833 \
-    audio.r_submix.mt6833 \
-    sound_trigger.primary.default \
-    libMtkSpeechEnh \
-    lib_iir \
-    lib_speech_enh \
-    libalsautils.mt6833 \
-    libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
-    libcvsd_mtk \
     libfgauge_gm30 \
-    libmisoundcrossfade \
-    libmsbc_mtk \
-    libmtklimiter_vendor \
-    libmtkshifter_vendor \
-    libnxp_extamp_intf \
-    librt_extamp_intf \
-    libsixth \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
     libvcodec_oal \
     libvcodec_utility \
     libvcodecdrv \
     libvcodecdrv_header_stub \
     libvpu5 \
     libvpud_vcodec \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     APUWareUtilsServer \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
@@ -456,6 +422,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
+    audio.primary.mt6833 \
+    audio.r_submix.mt6833 \
     consumerir.common \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
@@ -464,6 +432,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.mtk_common \
     sensors.elliptic \
     sensors.mt6833 \
+    sound_trigger.primary.default \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
@@ -911,6 +880,7 @@ PRODUCT_PACKAGES += \
     libDefaultFpsActor \
     libFrameRecord \
     libJpgEncPipe \
+    libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
@@ -924,6 +894,8 @@ PRODUCT_PACKAGES += \
     libSonyIMX519PdafLibraryWrapper \
     libTEECommon \
     lib_bsscore \
+    lib_iir \
+    lib_speech_enh \
     lib_sr_models \
     libaaa_ltm \
     libaaa_ltmx \
@@ -939,6 +911,7 @@ PRODUCT_PACKAGES += \
     libalCFR \
     libalLDC \
     libalhLDC \
+    libalsautils.mt6833 \
     libanc_dc_base \
     libanc_dc_plugin_xiaomi_v2 \
     libapu_mdw \
@@ -949,6 +922,20 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
+    libaudio_param_parser-vnd \
+    libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
+    libaudiocomponentengine_vendor \
+    libaudiocomponentenginec \
+    libaudiocustparam_vendor \
+    libaudiodcrflt_vendor \
+    libaudiofmtconv \
+    libaudioloudc \
+    libaudioprimarydevicehalifclient \
+    libaudiotoolkit_vendor \
+    libaurisysdemo \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
     libbluetooth_mtk \
     libbt-vendor \
     libc++_shared \
@@ -1031,6 +1018,7 @@ PRODUCT_PACKAGES += \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
+    libcvsd_mtk \
     libdip_drv \
     libdip_imem \
     libdip_postproc \
@@ -1084,10 +1072,12 @@ PRODUCT_PACKAGES += \
     libmialgoengine \
     libmibokeh_mt6873 \
     libmipc \
+    libmisoundcrossfade \
     libmml \
     libmnetlink_v104 \
     libmnl-v30 \
     libmpbase \
+    libmsbc_mtk \
     libmsnr \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -1160,10 +1150,12 @@ PRODUCT_PACKAGES += \
     libmtkconfigutils \
     libmtkhardware_legacy \
     libmtkisp_metadata \
+    libmtklimiter_vendor \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
     libmtkrilutils \
+    libmtkshifter_vendor \
     libmtksysutils \
     libmtktinyxml \
     libmtkutils \
@@ -1173,6 +1165,7 @@ PRODUCT_PACKAGES += \
     libneuropilot_hal_utils \
     libnir_neon_driver_ndk.mtk.vndk \
     libnotifyaudiohal \
+    libnxp_extamp_intf \
     liboemcrypto \
     libpq_cust_base \
     libpqframework \
@@ -1180,8 +1173,12 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librgbwlightsensor \
     librilfusion \
+    librt_extamp_intf \
     libsdk_sr \
     libsensor_custom \
+    libsixth \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libsysenv \
@@ -1218,6 +1215,9 @@ PRODUCT_PACKAGES += \
     s5kjn1sunny_mipi_raw_IdxMgr \
     s5kjn1sunny_mipi_raw_tuning \
     vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.audio@7.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
