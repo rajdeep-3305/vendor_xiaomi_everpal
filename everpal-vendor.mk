@@ -1069,6 +1069,7 @@ PRODUCT_PACKAGES += \
     libmiStereoFactoryRemapLib \
     libmialgo_sd \
     libmialgo_utils \
+    libutils_mtk \
     libmialgoengine \
     libmibokeh_mt6873 \
     libmipc \
